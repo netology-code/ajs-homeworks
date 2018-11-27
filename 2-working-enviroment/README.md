@@ -1,4 +1,4 @@
-# Домашнее задание к лекции Рабочее окружение
+# Домашнее задание к лекции «Рабочее окружение»
 
 ## Задача №1 Создание package
 
@@ -76,7 +76,7 @@ const alive = characters.filter(item => item.health > 0);
 
 ### Описание
 
-Ваша задача "прикрутить" ESLint к проекту и настроить работу с его использованием.
+Ваша задача «прикрутить» ESLint к проекту и настроить работу с его использованием.
 
 Установка:
 ```shell
@@ -105,10 +105,10 @@ npm install --save-dev eslint
 Создайте файл `src/app.js` со следующим содержимым:
 ```javascript
 const characters = [
-    {name: 'мечник', health: 10},
-    {name: 'маг', health: 100},
-    {name: 'маг', health: 0},
-    {name: 'лучник', health: 0}
+  {name: 'мечник', health: 10},
+  {name: 'маг', health: 100},
+  {name: 'маг', health: 0},
+  {name: 'лучник', health: 0}
 ];
 
 const alive = characters.filter(item => item.health > 0);
