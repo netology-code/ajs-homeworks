@@ -3,7 +3,7 @@
 1. [Стандарты](standarts/)
 1. [Рабочее окружение](working-enviroment/)
 1. [Unit-тестирование](unit-test/)
-1. [Синтаксически конструкции](syntactic-constructions/)
+1. [Синтаксические конструкции](syntactic-constructions/)
 1. [Свойства объектов, обёртки для примитивов](properties-and-wrappers/)
 1. [Прототипы, конструкторы](prototypes-constructors/)
 1. [Классы, наследование](classes-inheritance/)
