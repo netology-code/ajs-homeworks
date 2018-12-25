@@ -9,6 +9,6 @@
 1. [Классы, наследование](classes-inheritance/)
 1. [Контейнеры](containers/)
 1. [Math, Regexp, ArrayBuffer](math-regexp-arraybuffer/)
-1. [Promises, async/await](1promises-async-await)
+1. [Promises, async/await](promises-async-await)
 1. [Символы, итераторы, генераторы](symbols-iterators-generators/)
 1. [Модули](modules/)
