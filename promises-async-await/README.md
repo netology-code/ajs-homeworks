@@ -16,7 +16,7 @@ class GameSavingData {
   constructor(data) {
     this.data = data;
   }
-    
+  
   json() {
     return new Promise((resolve, reject) => {
       // эмуляция обработки ArrayBuffer
@@ -31,7 +31,7 @@ function readGameSaving() {
   return new Promise((resolve, reject) => {
     // эмуляция чтения файла
     setTimeout(() => {
-      const data = ``;
+      const data = '{"id":9,"created":1546300800,"userInfo":{"id":1,name":"Hitman","level":10,"points":2000}}';
       return (input => {
         const buffer = new ArrayBuffer(input.length * 2);
         const bufferView = new Uint16Array(buffer);
@@ -49,6 +49,20 @@ function readGameSaving() {
 ```json
 const data = readGameSaving(); // возвращается Promise!
 const value = data.json(); // возвращается Promise!
+```
+
+Спецификации объектов класса GameSaving:
+```json
+{
+  "id": <number>, // id сохранения
+  "created": <timestamp>, // timestamp создания
+  "userInfo": {
+    "id": <number>, // user id
+    "name": <string>, // user name
+    "level": <number>, // user level
+    "points": <number>, // user points
+  }
+}
 ```
 
 Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете. Обратите внимание, что вы тестируете асинхронный код.

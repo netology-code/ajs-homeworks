@@ -19,9 +19,7 @@
 1. author - ваше имя или псевдоним
 1. license - ISC
 
-Добавьте `.gitignore` в котором проигнорируйте каталог `node_modules`.
-
-Отредактируйте `package.json`, добавив строку `"private": true`
+Добавьте `.gitignore` из набора github: [https://github.com/github/gitignore/blob/master/Node.gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore).
 
 ## Задача №2 - Dev-зависимости
 
@@ -33,7 +31,7 @@
 
 Ваша задача подключить Babel к проекту и настроить сборку с его использованием.
 
-Установите Babel с помощью команды: `npm install --save-dev babel-cli babel-preset-env`.
+Установите Babel.
 
 Настройте скрипт запуска `build` для сборки с помощью `npm`. Для этого в секции `scripts` файла `package.json` пропишите:
 ```json
@@ -41,18 +39,13 @@
     ...
     "scripts": {
         ...
-        "build": "babel src -d lib"
+        "build": "babel src -d dist"
         ...
     }
 }
 ```
 
-Создайте конфиг `.babelrc`:
-```json
-{
-    "presets": ["env"]
-}
-```
+Создайте конфиг `.babelrc` и пропишите `@babel/preset-env`
 
 Создайте файл `src/app.js` со следующим содержимым:
 ```javascript
@@ -60,13 +53,15 @@ const characters = [
   {name: 'мечник', health: 10},
   {name: 'маг', health: 100},
   {name: 'маг', health: 0},
-  {name: 'лучник', health: 0}
+  {name: 'лучник', health: 0},
 ];
 
 const alive = characters.filter(item => item.health > 0);
 ```
 
-Удостоверьтесь, что проект собирается, если в консоли запустить команду `npm run build` и в каталоге lib отсутсвует код, несовместимый с ES5.
+Удостоверьтесь, что проект собирается, если в консоли запустить команду `npm run build` и в каталоге `dist` формируется преобразованный Babel код.
+
+Добавьте каталог `dist` в `.gitignore`.
 
 ## Задача №3 - ESLint
 

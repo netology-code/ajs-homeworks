@@ -20,7 +20,7 @@
 
 ### Легенда
 
-Вы проанализировали логи вашей игры и заметили, что многие пользователи используют "мусорные" логины и различные непонятные символы не только в никнеймах, но и в именах. Необходимо с этим что-то делать! 
+Вы проанализировали логи вашей игры и заметили, что многие пользователи используют «мусорные» логины и различные непонятные символы не только в никнеймах, но и в именах. Необходимо с этим что-то делать! 
 
 ### Описание
 
@@ -41,19 +41,17 @@
 У вас есть функция `getBuffer()`, которая эмулирует создание объекта типа `ArrayBuffer`. Вам необходимо реализовать класс `ArrayBufferConverter` с методом `load()`, который может загружать данные и методом `toString`, который умеет переводить содержимое загруженного `ArrayBuffer` в строку.
 ```javascript
 function getBuffer() {
-  const data = '...';
+  const data = '{"data":{"user":{"id":1,"name":"Hitman","level":10}}}';
   return (data => {
-      const buffer = new ArrayBuffer(data.length * 2);
-      const bufferView = new Uint16Array(buffer);
-      for (let i = 0; i < input.length; i++) {
-        bufferView[i] = input.charCodeAt(i);
-      }
-      return buffer;
+    const buffer = new ArrayBuffer(data.length * 2);
+    const bufferView = new Uint16Array(buffer);
+    for (let i = 0; i < input.length; i++) {
+      bufferView[i] = input.charCodeAt(i);
+    }
+    return buffer;
   })(data);
 }
 ```
-
-- [ ] TODO: добавить JSON сюда (проверить функцию)
 
 Не забудьте написать unit-тесты, которые обеспечивают 100% покрытие функций и классов, которые вы тестируете.
 

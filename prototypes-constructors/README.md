@@ -51,7 +51,7 @@ function Character(name, type) {
 ```json
 {
   "source": {
-    "include": ["js"]
+    "include": ["src/js"]
   },
   "opts": {
     "encoding": "utf8",
