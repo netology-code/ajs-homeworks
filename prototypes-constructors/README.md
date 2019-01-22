@@ -55,7 +55,7 @@ function Character(name, type) {
   },
   "opts": {
     "encoding": "utf8",
-    "destination": "./docs/",
+    "destination": "docs",
     "recurse": true
   }
 }
