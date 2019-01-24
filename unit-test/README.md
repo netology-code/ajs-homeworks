@@ -5,16 +5,13 @@
 ## Описание установки
 
 ```shell
-npm init # test script: jest --coverage
-npm install --save-dev jest babel-jest babel-preset-env
+npm init
+# При инициалиализации в качестве тестовой команды указать:
+# test command: jest --coverage
+npm install --save-dev jest babel-jest babel-core@^7.0.0-bridge.0 @babel/core @babel/cli @babel/preset-env
 ```
 
-Создать конфиг `.babelrc`:
-```json
-{
-    "presets": ["env"]
-}
-```
+Не забудьте про `.babelrc` и `.browserslistrc`.
 
 Запуск тестов:
 ```shell
@@ -88,7 +85,7 @@ export default function fetchData(url) {
 }
 ```
 
-```javascript=
+```javascript
 // Ваша функция:
 import fetchLevel from './http';
 
