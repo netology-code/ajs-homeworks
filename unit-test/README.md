@@ -16,7 +16,7 @@
 npm init
 # При инициалиализации в качестве тестовой команды указать:
 # test command: jest --coverage
-npm install --save-dev jest babel-jest babel-core@^7.0.0-bridge.0 @babel/core @babel/cli @babel/preset-env
+npm install --save-dev jest@23.6.0 babel-jest@23.6.0 babel-core@^7.0.0-bridge.0 @babel/core @babel/cli @babel/preset-env
 ```
 
 Не забудьте про `.babelrc` и `.browserslistrc`.
