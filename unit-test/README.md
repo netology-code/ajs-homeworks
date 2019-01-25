@@ -6,6 +6,8 @@
 
 **Важно**: Jest должен обеспечивать 100% покрытие по строкам.
 
+**Важно**: используйте `import`/`export` а не `require`.
+
 В качестве шаблона вы можете использовать [готовый проект с лекции](https://github.com/netology-code/js-advanced-homeworks/tree/master/webpack-template).
 
 ## Описание установки
