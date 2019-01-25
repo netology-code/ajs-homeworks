@@ -91,7 +91,7 @@ export default function fetchData(url) {
 
 ```javascript
 // Ваша функция:
-import fetchLevel from './http';
+import fetchData from './http';
 
 export function getLevel(userId) {
   const response = fetchData(`https://server/user/${userId}`);
