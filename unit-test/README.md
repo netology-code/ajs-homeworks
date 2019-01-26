@@ -21,6 +21,22 @@ npm install --save-dev jest@23.6.0 babel-jest@23.6.0 babel-core@^7.0.0-bridge.0 
 
 Не забудьте про `.babelrc` и `.browserslistrc`.
 
+Для Jest v24 (начиная с 25 января):
+```shell
+npm init
+npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env
+npm install @babel/polyfill
+```
+
+В `.babelrc`:
+```json
+{
+  "presets": [["@babel/preset-env", {
+    "useBuiltIns": "usage"
+  }]]
+}
+```
+
 Запуск тестов:
 ```shell
 npm test
