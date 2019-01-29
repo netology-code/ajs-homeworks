@@ -1,0 +1,16 @@
+{
+  "name": "js-adv-try-catch-delete-start",
+  "version": "0.0.2",
+  "license": "ISC",
+  "author": "avsudnichnikov for netology",
+  "scripts": {
+    "start": "http-server .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "http-server": "^0.11.1"
+  }
+}

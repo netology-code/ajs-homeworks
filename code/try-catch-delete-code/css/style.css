@@ -1,0 +1,159 @@
+body {
+    flex-direction: column;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.start-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    margin: 0;
+    height: 30px;
+    padding: 6px 12px;
+    border: 4px solid #404040;
+    border-radius: 30px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 120px;
+    box-shadow: 0 0 3px 3px rgba(128, 128, 128, 0.5), inset 0 0 20px rgba(128, 128, 128, 0.5);
+    user-select: none;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
+
+.start_button:active {
+    box-shadow: 0 0 0 0 rgba(128, 128, 128, 0.5), inset 0 0 20px rgba(128, 128, 128, 0.5);
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.screen {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.row_manage-panel {
+    background: #cecece;
+    height: 10%;
+    width: 100%;
+    border-bottom: 4px solid #404040;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_game-field {
+    height: calc(90% - 4px);
+    background: #2a802e;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    height: 100%;
+    width: 100%;
+    max-width: 250px;
+    background: #3e3e3e;
+}
+
+.car {
+    background-image: url("/img/car.svg");
+    width: 70px;
+    height: 140px;
+    background-size: contain;
+    position: absolute;
+    bottom: 20px;
+    z-index: 5;
+    left: calc(50% - 60px);
+    transform: translateX(-50%);
+    transition: left 300ms;
+}
+
+.car_right {
+    left: calc(50% + 60px);
+}
+
+.cone {
+    background: url(/img/cone.svg) no-repeat;
+    width: 44px;
+    height: 60px;
+    background-size: contain;
+    position: absolute;
+    top: -20px;
+    transform: translate(-50%, -100%);
+    left: calc(50% - 60px);
+}
+
+.cone_bang {
+    background-image: url(/img/bang.svg);
+    z-index: 10;
+}
+
+.cone_right {
+    left: calc(50% + 60px);
+}
+
+.game-over {
+    position: absolute;
+    font-size: 54px;
+    font-weight: 700;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+    opacity: 1;
+    transition: opacity 500ms;
+    background: rgba(55, 0, 0, 0.8);
+    cursor: default;
+    user-select: none;
+}
+
+.fade {
+    z-index: -5;
+    opacity: 0;
+}
+
+
+.cone-total{
+    font-size: 24px;
+}
+
+.nitro {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e00000;
+    border: 4px solid #8b0000;
+    color: yellow;
+    padding: 0;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.5);
+    user-select: none;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
+
+.nitro:active {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.5);
+}
