@@ -99,7 +99,7 @@ const characters = [
     {name: 'мечник', health: 10},
 ]
 
-const attacks[] = setUpAttacks(characters);
+const attacks = setUpAttacks(characters);
 
 attacks[1](9); // атакуем лучника 9 баллами урона
 
