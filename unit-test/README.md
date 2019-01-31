@@ -8,7 +8,7 @@
 
 **Важно**: используйте `import`/`export` а не `require`.
 
-В качестве шаблона вы можете использовать [готовый проект с лекции](https://github.com/netology-code/js-advanced-homeworks/tree/master/webpack-template).
+В качестве шаблона вы можете использовать [готовый проект с лекции](https://github.com/netology-code/js-advanced-materials/tree/master/materials/webpack-code).
 
 ## Описание установки
 
