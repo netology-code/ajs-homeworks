@@ -56,7 +56,6 @@ function readGameSaving() {
 Пример использования класса (если бы это был синхронный код)
 ```json
 class GameSavingLoader {
-
   load() {
     const data = readGameSaving(); // возвращается Promise!
     const value = data.json(); // возвращается Promise!
