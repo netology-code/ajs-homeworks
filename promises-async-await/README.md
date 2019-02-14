@@ -53,14 +53,21 @@ function readGameSaving() {
 }
 ```
 
-Пример использования функции (если бы это был синхронный код)
+Пример использования класса (если бы это был синхронный код)
 ```json
-const data = readGameSaving(); // возвращается Promise!
-const value = data.json(); // возвращается Promise!
+class GameSavingLoader {
+
+  load() {
+    const data = readGameSaving(); // возвращается Promise!
+    const value = data.json(); // возвращается Promise!
+    return value;
+  }
+}
 ```
+Вам нужно переписать метод load так, чтобы он возвращал Promise с данными (см. описание ниже)
 
 Спецификации объектов класса GameSaving:
-```json
+```javascript
 {
   "id": <number>, // id сохранения
   "created": <timestamp>, // timestamp создания
