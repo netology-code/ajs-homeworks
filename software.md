@@ -4,3 +4,5 @@
 1. [Node.js LTS](https://nodejs.org/en/download/) для установки инструментов
 
 **Важно**: всё ПО является свободно распространяемым
+
+[Краткая инструкция по работе в терминале](https://github.com/netology-code/js-advanced-homeworks/blob/master/terminal.md)
