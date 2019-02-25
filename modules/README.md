@@ -79,7 +79,7 @@ game.start();
 1. Из модуля `domain` экспорт класса `Character` в качестве дефолтного
 1. В модуле `game` импорт класса `Character`
 1. Экспорт из модуля `game` класса `Game` в качестве дефолтного, класса `GameSavingData` и функций `readGameSaving` и `writeGameSaving`
-1. В модуле `app.js` одним импортом импортируйте `Game`, `GameSavingData` и функции `readGameSaving`, `wirteGameSaving` (их при импорте переименуйте в `loadGame` и `saveGame` соответственно)
+1. В модуле `app.js` одним импортом импортируйте `Game`, `GameSavingData` и функции `readGameSaving`, `writeGameSaving` (их при импорте переименуйте в `loadGame` и `saveGame` соответственно)
 
 В качестве результата пришлите проверяющему ссылку на ваш GitHub-проект.
 
