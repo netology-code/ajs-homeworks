@@ -47,7 +47,7 @@
 
 файл `domain.js`:
 ```javascript
-class Character() {
+class Character {
 }
 ```
 
