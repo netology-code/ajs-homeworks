@@ -6,6 +6,8 @@
 
 **Важно**: Jest должен обеспечивать 100% покрытие по строкам для тестируемых вами функций.
 
+**Важно**: Ко всем задачам должен быть подключен Appveyor и выставлен бейджик статуса.
+
 **Важно**: используйте `import`/`export` а не `require`.
 
 В качестве шаблона вы можете использовать [готовый проект с лекции](https://github.com/netology-code/js-advanced-materials/tree/master/materials/webpack-code).
@@ -16,17 +18,11 @@
 npm init
 # При инициалиализации в качестве тестовой команды указать:
 # test command: jest --coverage
-npm install --save-dev jest@23.6.0 babel-jest@23.6.0 babel-core@^7.0.0-bridge.0 @babel/core @babel/cli @babel/preset-env
-```
-
-Не забудьте про `.babelrc` и `.browserslistrc`.
-
-Для Jest v24 (начиная с 25 января):
-```shell
-npm init
 npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env
 npm install @babel/polyfill
 ```
+
+Не забудьте про `.babelrc` и `.browserslistrc`.
 
 В `.babelrc`:
 ```json
