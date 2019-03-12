@@ -10,7 +10,7 @@
 
 **Важно**: используйте `import`/`export` а не `require`.
 
-В качестве шаблона вы можете использовать [готовый проект с лекции](https://github.com/netology-code/js-advanced-materials/tree/master/materials/webpack-code).
+В качестве шаблона вы можете использовать [готовый проект](https://github.com/coursar/neto-template).
 
 ## Описание установки
 
