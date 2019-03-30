@@ -18,7 +18,7 @@
 npm init
 # При инициалиализации в качестве тестовой команды указать:
 # test command: jest --coverage
-npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env
+npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env core-js@2
 npm install @babel/polyfill
 ```
 
@@ -28,7 +28,8 @@ npm install @babel/polyfill
 ```json
 {
   "presets": [["@babel/preset-env", {
-    "useBuiltIns": "usage"
+    "useBuiltIns": "usage",
+    "corejs": 2
   }]]
 }
 ```
