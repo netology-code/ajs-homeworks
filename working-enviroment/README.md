@@ -81,11 +81,7 @@ npm install --save-dev eslint
 ./node_modules/.bin/eslint --init
 ```
 
-При инициализации конфиг файла выберите:
-1. Use a popular style guide
-1. Airbnb
-1. React - No
-1. Config format: json
+При инициализации конфиг-файла выберите те же опции, что указаны в лекции.
 
 Настройте скрипт запуска `lint` для `npm`. Для этого в секции `scripts` файла `package.json` пропишите:
 ```json
