@@ -19,7 +19,7 @@ npm init
 # При инициалиализации в качестве тестовой команды указать:
 # test command: jest --coverage
 npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env
-npm install @babel/polyfill core-js@3
+npm install core-js@3
 ```
 
 Не забудьте про `.babelrc` и `.browserslistrc`.
