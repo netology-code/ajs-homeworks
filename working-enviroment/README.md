@@ -105,11 +105,16 @@ npm install --save-dev eslint
 npx eslint --init
 ```
 
-При инициализации конфиг-файла выберите:
-1. Use a popular style guide
-1. Airbnb
-1. React - No
-1. Config format: json
+
+При инициализации конфиг-файла выберите те же опции, что указаны в лекции:
+* How would you like to use ESLint? *To check syntax, find problems, and enforce code style*
+* What type of modules does your project use? *JavaScript modules (import/export)*
+* Which framework does your project use? *None of this*
+* Where does your code run? *Browser*
+* How would you like to define a style for your project? *Use a popular style guide*
+* Which style guide do you want to follow? *Airbnb*
+* What format do you want your config file to be in? *JSON*
+* Would you like to install them now with npm? *Y*
 
 Настройте скрипт запуска `lint` для `npm`. Для этого в секции `scripts` файла `package.json` пропишите:
 ```json
