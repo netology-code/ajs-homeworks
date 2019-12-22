@@ -17,6 +17,7 @@
   "author": "coursar",
   "license": "MIT",
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
@@ -26,10 +27,22 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.19.1",
+=======
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+>>>>>>> b913db4b2d92ac628b422061ee17953e24e33808
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "live-server": "^1.2.1",
+<<<<<<< HEAD
     "mini-css-extract-plugin": "^0.9.0",
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",
@@ -38,5 +51,14 @@
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "core-js": "^3.6.0"
+=======
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "core-js": "^3.4.1"
+>>>>>>> b913db4b2d92ac628b422061ee17953e24e33808
   }
 }
