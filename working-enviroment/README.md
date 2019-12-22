@@ -40,7 +40,7 @@
 Ваша задача подключить Babel к проекту и настроить сборку с его использованием.
 
 1. Установите Babel (`npm install --save-dev @babel/core @babel/cli @babel/preset-env`).
-2. Установите Babel Polyfill и CoreJS (`npm install @babel/polyfill core-js@3`).
+2. Установите CoreJS (`npm install core-js@3`).
 
 2. Настройте скрипт запуска `build` для сборки с помощью `npm`. Для этого в секции `scripts` файла `package.json` пропишите:
 ```json
