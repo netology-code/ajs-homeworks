@@ -1,14 +1,24 @@
 # Домашние задания по курсу Продвинутый JavaScript
 
-1. [Рабочее окружение](working-enviroment/)
-1. [Модули](modules/)
-1. [Unit-тестирование](unit-test/)
-1. [Синтаксические конструкции](syntactic-constructions/)
-1. [Свойства объектов, обёртки для примитивов](properties-and-wrappers/)
-1. [Прототипы, конструкторы](prototypes-constructors/)
-1. [Классы, наследование](classes-inheritance/)
-1. [Контейнеры](containers/)
-1. [Math, Regexp, ArrayBuffer](math-regexp-arraybuffer/)
-1. [Promises, async/await](promises-async-await)
-1. [Символы, итераторы, генераторы](symbols-iterators-generators/)
-1. [TypeScript](typescript/)
+Важно: [Правила оформления вопросов, сообщений о ошибках и проблемах](report-requirements.md)
+
+Важно: [Инструкция по работе в терминале](terminal.md)
+
+Важно: [Используемый в лекциях софт](software.md)
+
+Важно: [Готовый .gitignore для ДЗ](.gitignore)
+
+Важно: [Примеры кода из лекций](https://github.com/netology-code/ajs-code/tree/ajs8)
+
+1. [ ] [Стандарты и рабочее окружение](workspace/)
+1. [ ] [Модули и Webpack](modules/)
+1. [ ] [Платформы: браузер vs Node.js](platforms/)
+1. [ ] [Unit-тестирование](test-ci/)
+1. [ ] [Прототипы, конструкторы, классы и наследование](oop/)
+1. [ ] [Object, Reflection и Proxy](advanced/)
+1. [ ] [Регулярные выражения](regex/)
+1. [ ] [Контейнеры](containers/)
+1. [ ] [ArrayBuffer](arraybuffer/)
+1. [ ] [Promises, async/await, timers & event loop](async/)
+1. [ ] [Символы, итераторы, генераторы](symbols-iterators-generators/)
+1. [ ] [TypeScript](typescript/)
