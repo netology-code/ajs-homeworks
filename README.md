@@ -12,7 +12,7 @@
 
 1. [x] [Стандарты и рабочее окружение](workspace/)
 1. [x] [Модули и Webpack](modules/)
-1. [ ] [Платформы: браузер vs Node.js](platforms/)
+1. [x] [Платформы: браузер vs Node.js](platforms/)
 1. [x] [Unit-тестирование](test-ci/)
 1. [ ] [Прототипы, конструкторы, классы и наследование](oop/)
 1. [ ] [Object, Reflection и Proxy](advanced/)
