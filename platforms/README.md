@@ -37,7 +37,7 @@
 1. `REPO` будет пониматься название вашего репозитория на GitHub в нижнем регистре (все буквы маленькие)
 1. `TOKEN` будет access token (см. ниже), который вы сгенерируете на GitHub
 
-Создайте проект на GitHub-проект, после чего с помощью `npm init --scope=@username` (где `username` - имя вашего пользователя на GitHub в нижнем регистре, например, если на GitHub у меня логин `Netology-Code`, то команда будет `npm init --scope=@netology-code`) сгенерируйте package:
+Создайте репозиторий на GitHub, после чего с помощью `npm init --scope=@username` (где `username` - имя вашего пользователя на GitHub в нижнем регистре, например, если на GitHub у меня логин `Netology-Code`, то команда будет `npm init --scope=@netology-code`) сгенерируйте package:
 1. package name - @username/ajs (вам предложат автоматически)
 1. version - 1.0.0 (по умолчанию)
 1. description - оставьте пустым (по умолчанию)
