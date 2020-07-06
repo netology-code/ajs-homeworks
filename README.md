@@ -15,7 +15,7 @@
 1. [x] [Платформы: браузер vs Node.js](platforms/)
 1. [x] [Unit-тестирование](test-ci/)
 1. [x] [Прототипы, конструкторы, классы и наследование](oop/)
-1. [ ] [Object, Reflection и Proxy](advanced/)
+1. [x] [Object, Reflection и Proxy](advanced/)
 1. [ ] [Регулярные выражения](regex/)
 1. [ ] [Контейнеры](containers/)
 1. [ ] [ArrayBuffer](arraybuffer/)
