@@ -19,6 +19,6 @@
 1. [x] [Регулярные выражения](regex)
 1. [x] [Контейнеры](containers)
 1. [x] [ArrayBuffer](arraybuffer)
-1. [ ] [Promises, async/await, timers & event loop](async)
+1. [x] [Promises, async/await, timers & event loop](async)
 1. [ ] [Символы, итераторы, генераторы](symbols-iterators-generators)
 1. [ ] [TypeScript](typescript)
