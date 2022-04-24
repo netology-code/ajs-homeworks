@@ -1,0 +1,27 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.22.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redhead80/ajs-homeworks.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Gennadiy Utkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redhead80/ajs-homeworks/issues"
+  },
+  "homepage": "https://github.com/Redhead80/ajs-homeworks#readme"
+}
