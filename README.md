@@ -11,7 +11,7 @@
 Важно: [Примеры кода из лекций](https://github.com/netology-code/ajs-code/tree/ajs8)
 
 1. [x] [Стандарты и рабочее окружение](workspace)
-1. [x] [Модули и Webpack](modules)
+1. [x] [Модули и Webpack](modules Webpack)
 1. [x] [Платформы: браузер vs Node.js](platforms)
 1. [x] [Unit-тестирование](test-ci)
 1. [x] [Прототипы, конструкторы, классы и наследование](oop)
