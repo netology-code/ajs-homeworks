@@ -12,7 +12,6 @@
 
 1. [x] [Стандарты и рабочее окружение](workspace)
 1. [x] [Модули и Webpack](modulesWebpack)
-1. [x] [Модули и Webpack](modulesImport_Export)
 1. [x] [Платформы: браузер vs Node.js](platforms)
 1. [x] [Unit-тестирование](test-ci)
 1. [x] [Прототипы, конструкторы, классы и наследование](oop)
