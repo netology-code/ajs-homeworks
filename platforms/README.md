@@ -138,7 +138,6 @@ A: чтобы не замусоривать его + из соображений
 ```
 last 1 version
 > 1%
-maintained node versions
 not dead
 ```
 
