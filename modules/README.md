@@ -24,7 +24,7 @@
     - файл `style.css` (в качестве содержимого используйте `body { color: #999; }`)
   - каталог `js`
     - файл `app.js` (в качестве содержимого используйте `console.log('app worked')`)
-  - файл `index.html` (шаблон для HTMLWebpackPlugin) (содержимое файла произвольно, скрипты и стили должны подключаться автоматически, за счёт использования HTMLWebpackPlugin и MiniCssExtractPlugin)
+  - файл `index.html` (шаблон для HTMLWebpackPlugin) (содержимое файла произвольно, скрипты и стили должны подключаться автоматически за счёт использования HTMLWebpackPlugin и MiniCssExtractPlugin)
   - файл `index.js` (webpack entry point)
 - файл `webpack.config.js`
 - файл `package.json`
@@ -103,5 +103,5 @@ game.start();
 
 Для этого инициализируйте проект на базе `npm`, подключите туда live-server (ESLint, Babel и webpack не подключайте).
 
-Подключите все модули на базовую страниу `index.html` так, чтобы при открытии её в браузере в консоли отобразилось `game started`.
+Подключите все модули на базовую страницу `index.html` так, чтобы при открытии её в браузере в консоли отобразилось `game started`.
 
