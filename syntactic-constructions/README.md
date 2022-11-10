@@ -110,7 +110,7 @@ const characters = [
 
 const attacks = setUpAttacks(characters);
 
-attacks[1](9); // атакуем лучника 9 баллами урона
+attacks[1](9); // атакуем лучника 9 баллами урона.
 
 console.log(characters)
 /*
