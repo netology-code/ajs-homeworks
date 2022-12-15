@@ -265,7 +265,7 @@ console.log(ajs.info());
 
 Скопируйте URL из строки браузера (в примере он вот такой: https://raw.githubusercontent.com/netology-code/ajs/master/dist/index.js).
  
-Теперь перейдите на сервис [GitCDN](https://gitcdn.link/), подставьте получившийся URL в верхнее поле (1), а с нижнего скопируйте итоговый URL (2):
+Теперь перейдите на сервис [Statically](https://statically.io/convert/), подставьте получившийся URL в верхнее поле (1), а с нижнего скопируйте итоговый URL (2):
 
 ![](pic/cdn.png)
 
