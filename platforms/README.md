@@ -60,11 +60,11 @@
 
 ![](pic/settings-menu.png)
 
-Выберите пункт меню Developer Settings:
+Выберите пункт меню [Developer Settings](https://github.com/settings/apps):
 
 ![](pic/developer-menu.png)
 
-Выберите пункт меню Personal Access Tokens (1), затем нажмите на кнопку Generate new token (2):
+Выберите пункт меню Personal Access Tokens (1), затем нажмите на кнопку [Generate new token (2)](https://github.com/settings/tokens/new):
 
 ![](pic/generate-token.png)
 
