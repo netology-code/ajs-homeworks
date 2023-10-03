@@ -20,20 +20,26 @@
 npm init
 # При инициалиализации в качестве тестовой команды указать:
 # test command: jest --coverage
-npm install --save-dev jest babel-jest @babel/core @babel/cli @babel/preset-env
+npm install --save-dev jest @babel/core @babel/cli @babel/preset-env
 npm install core-js@3
 ```
 
-Не забудьте про `.babelrc` и `.browserslistrc`.
+Не забудьте про `babel.config.json` и `.browserslistrc`.
 
-В `.babelrc`:
+В `babel.config.json`:
 ```json
 {
-  "presets": [["@babel/preset-env", {
-    "useBuiltIns": "usage",
-    "corejs": 3
-  }]]
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "corejs": "3.22"
+      }
+    ]
+  ]
 }
+
 ```
 
 Запуск тестов:

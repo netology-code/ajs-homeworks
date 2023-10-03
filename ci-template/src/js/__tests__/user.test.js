@@ -12,5 +12,5 @@ test('should call loadUser once', () => {
 
   const response = loadUser(1);
   expect(response).toEqual({});
-  expect(httpGet).toBeCalledWith('http://server:8080/users/1');
+  expect(httpGet).toHaveBeenCalledWith('http://server:8080/users/1');
 });
