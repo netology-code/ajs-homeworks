@@ -54,15 +54,15 @@
 }
 ```
 
-3. Создайте конфиг `.babelrc` и пропишите `@babel/preset-env`:
+3. Создайте конфиг `babel.config.json` и пропишите `@babel/preset-env`:
 ```javascript
 {
   "presets": [
     [
       "@babel/preset-env",
       {
-        "useBuiltIns": "usage",
-        "corejs": 3
+        "useBuiltIns": "entry",
+        "corejs": "3.22"
       }
     ]
   ]
@@ -107,14 +107,13 @@ npx eslint --init
 
 
 При инициализации конфиг-файла выберите те же опции, что указаны в лекции:
-* How would you like to use ESLint? *To check syntax, find problems, and enforce code style*
-* What type of modules does your project use? *JavaScript modules (import/export)*
-* Which framework does your project use? *None of this*
-* Where does your code run? *Browser*
-* How would you like to define a style for your project? *Use a popular style guide*
-* Which style guide do you want to follow? *Airbnb*
-* What format do you want your config file to be in? *JSON*
-* Would you like to install them now with npm? *Y*
+* How would you like to use ESLint? · *problems*
+* What type of modules does your project use? · *esm*
+* Which framework does your project use? · *none*
+* Does your project use TypeScript? · *No*
+* Where does your code run? · *browser, node*
+* What format do you want your config file to be in? · *JavaScript*
+
 
 Настройте скрипт запуска `lint` для `npm`. Для этого в секции `scripts` файла `package.json` пропишите:
 ```json
@@ -145,21 +144,21 @@ const alive = characters.filter(item => item.health > 0);
 dist
 ```
 
-Содержимое `.eslintrc.json`:
-```json
-{
-    "extends": "airbnb-base",
-    "env": {
-        "es6": true,
-        "browser": true
-    },
-    "rules": {
-        "no-restricted-syntax": [
-            "error",
-            "LabeledStatement",
-            "WithStatement"
-        ]
-   }
+Содержимое `.eslintrc.js`:
+```js
+module.exports = {
+  'env': {
+    'browser': true,
+    'es2021': true,
+    'node': true
+  },
+  'extends': 'eslint:recommended',
+  'overrides': [],
+  'parserOptions': {
+    'ecmaVersion': 'latest',
+    'sourceType': 'module'
+  },
+  'rules': {}
 }
 ```
 
