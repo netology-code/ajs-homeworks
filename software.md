@@ -5,4 +5,4 @@
 
 **Важно**: всё ПО является свободно распространяемым
 
-[Краткая инструкция по работе в терминале](https://github.com/netology-code/js-advanced-homeworks/blob/master/terminal.md)
+[Краткая инструкция по работе в терминале](terminal.md)
