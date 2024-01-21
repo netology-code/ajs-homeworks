@@ -22,3 +22,4 @@
 1. [x] [Promises, async/await, timers & event loop](async)
 1. [x] [Символы, итераторы, генераторы](symbols-iterators-generators)
 1. [x] [TypeScript](typescript)
+# ajs
