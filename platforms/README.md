@@ -39,12 +39,11 @@
 
 Создайте репозиторий на GitHub, после чего с помощью `npm init --scope=@username` (где `username` - имя вашего пользователя на GitHub в нижнем регистре, например, если на GitHub у меня логин `Netology-Code`, то команда будет `npm init --scope=@netology-code`) сгенерируйте package:
 1. package name - @username/ajs (вам предложат автоматически)
-1. version - 1.0.0 (по умолчанию)
-1. description - оставьте пустым (по умолчанию)
-1. entry point - dist/index.js (!надо поменять на dist/index.js)
-1. остальное всё по умолчанию (просто нажимайте enter)
-
-Убедитесь, что в `packages.json` автоматически прописался адрес вашего репозитория.
+2. version - 1.0.0 (по умолчанию)
+3. description - оставьте пустым (по умолчанию)
+4. entry point - dist/index.js (!надо поменять на dist/index.js)
+5. repository - ссылка на ваш репозиторий в гитхаб
+6. остальное всё по умолчанию (просто нажимайте enter)
 
 Добавьте `.gitignore`, который мы для вас [приготовили](../.gitignore).
 
