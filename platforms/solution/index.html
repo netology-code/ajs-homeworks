@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ajs browser test</title>
+</head>
+<body>
+  <h1>ajs browser test</h1>
+  <pre id="output"></pre>
+  <script type="module">
+    import ajs from './src/index.js';
+    const data = Object.fromEntries(ajs.info());
+    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+    console.log(ajs.info());
+  </script>
+</body>
+</html>

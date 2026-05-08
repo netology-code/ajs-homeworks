@@ -1,0 +1,14 @@
+{
+  "name": "@username/ajs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start:node": "node src/test-node.js",
+    "start:browser": "npx http-server -c-1 -o index.html"
+  }
+}
