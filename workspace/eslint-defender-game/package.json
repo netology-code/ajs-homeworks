@@ -1,0 +1,22 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/defender-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Cope",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
